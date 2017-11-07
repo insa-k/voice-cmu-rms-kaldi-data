@@ -1,6 +1,7 @@
 buildscript {
     repositories {
         mavenLocal()
+        jcenter()
     }
     dependencies {
         classpath "de.dfki.mary:gradle-marytts-kaldi-mfa-plugin:0.2.0-SNAPSHOT"
